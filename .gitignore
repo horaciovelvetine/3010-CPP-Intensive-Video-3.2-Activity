@@ -1,0 +1,30 @@
+# Makefile output (this project)
+/test
+
+# Object files and static libraries
+*.o
+*.obj
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+a.out
+
+# CMake
+/build/
+/cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# macOS
+.DS_Store
